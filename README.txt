@@ -1,4 +1,6 @@
 This code contains a Matlab implementation of the Mirrortree-IPA as described in "Phylogenetic correlations can suffice to infer protein partners from sequences", by Guillaume Marmier, Martin Weigt and Anne-Florence Bitbol, DOI: 10.1101/670877.
+Archived version: 10.5281/zenodo.3377592
+
 Briefly, this is an algorithm iterative pairing algorithm (IPA) based on the Mirrortree method [1,2] that aims to predict interaction partners among paralogs from two protein families, just from their sequences. Here it is applied to our "standard dataset" of 5064 sequences of cognate histidine kinases and response regulators from the P2CS database (http://www.p2cs.org/).
 
 This algorithm is a Mirrortree-based variant of the DCA-IPA introduced in "Inferring interaction partners from protein sequences", by Anne-Florence Bitbol, Robert S. Dwyer, Lucy J. Colwell, and Ned S. Wingreen, Proc. Natl. Acad. Sci. U.S.A 113 (43) 12180-12185 (2016), DOI: 10.1073/pnas.1606762113, and of the MI-IPA introduced in "Inferring interaction partners from protein sequences using mutual information", by Anne-Florence Bitbol, PLoS Comput Biol 14(11):e1006401 (2018), DOI: 10.1371/journal.pcbi.1006401.
